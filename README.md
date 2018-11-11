@@ -1,1 +1,1 @@
-# podcast-subscription-app(pwa)
+# podcast-subscription-app(progressive web app)
