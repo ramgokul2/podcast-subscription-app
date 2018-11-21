@@ -24,6 +24,6 @@ const app = express();
      .use('/api', routes)
      .use(bodyParser.urlencoded({ extended: true }))
 
-http.createServer(app).listen(PORT, () => { console.info('Server started on, ' + PORT)});
+http.createServer(app).listen(PORT, () => { console.info('Server started on ' + PORT)});
 
 module.exports = app;
